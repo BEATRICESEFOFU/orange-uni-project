@@ -1,0 +1,49 @@
+.list-header { margin-bottom: 1.5rem; }
+.list-header h1 { font-size: 1.8rem; font-weight: 700; color: #1c1c1c; }
+.list-header p { color: #888; font-size: 14px; margin-top: 4px; }
+
+.search-input {
+    width: 100%;
+    padding: 11px 16px;
+    border: 1px solid #ecddd0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #ffffff;
+    color: #1c1c1c;
+    outline: none;
+    margin-bottom: 1rem;
+    transition: border-color 0.18s;
+}
+
+.search-input:focus { border-color: #e8620a; }
+
+.dept-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.5rem; }
+
+.dept-tab {
+    padding: 5px 16px;
+    border-radius: 20px;
+    border: 1px solid #ecddd0;
+    background: #ffffff;
+    color: #888;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s
+}
+
+.dept-tab:hover { border-color: #e8620a; color: #e8620a; }
+.dept-tab.active { background: #e8620a; color: #ffffff; border-color: #e8620a; }
+
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: #aaa;
+    font-size: 15px;
+}

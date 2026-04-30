@@ -1,0 +1,102 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fdf6f0;
+    padding: 1rem;
+}
+
+.login-card {
+    background: #ffffff;
+    border: 1px solid #ecddd0;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-logo {
+    width: 56px;
+    height: 56px;
+    background: #e8620a;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    gap: 2px;
+}
+
+.logo-o { font-size: 20px; font-weight: 700; color: #fff; }
+.logo-u { font-size: 20px; font-weight: 700; color: rgba(255,255,255,0.65); }
+
+.login-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 4px;
+}
+
+.login-sub {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 1.5rem;
+}
+
+.login-error {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #dc2626;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.login-group {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.login-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 6px;
+} 
+
+.login-group input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ecddd0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.18s;
+    background: #fff;
+    color: #1c1c1c;
+}
+
+.login-group input:focus { border-color: #e8620a; }
+
+.login-btn {
+    width: 100%;
+    padding: 11px;
+    background: #e8620a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.18s;
+}
+.login-btn:hover     { background: #c45208; }
+.login-btn:disabled  { opacity: 0.65; cursor: not-allowed; }
